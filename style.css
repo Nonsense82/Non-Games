@@ -137,6 +137,9 @@ footer > h4{
      }
 
      @media screen and (max-width: 400px) {
+        body{
+            flex: 1 1 100%;
+        }
         /* Ajuste nas fontes */
         header h1 {
             font-size: 40px;
@@ -160,11 +163,6 @@ footer > h4{
             align-items: center;
         }
     
-        
-    
-        footer h4 {
-            font-size: 0.8rem;
-        }
     
         .wall {
             width: 25px;
