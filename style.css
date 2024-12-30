@@ -138,15 +138,17 @@ footer > h4{
 
 @media screen and (max-width:400px){
     body{
-    display: flex;
-    flex-basis: 200px;
-    flex-shrink: 1;
+    
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
     }
    
     main{
-        display: flex;
-        flex-basis: 200px;
-        flex-shrink: 1;
+        
+        flex-basis: auto;
+        flex-grow: 1;
+        flex-shrink: 0;
     }
 }
 
