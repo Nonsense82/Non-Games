@@ -138,13 +138,12 @@ footer > h4{
 
 @media screen and (max-width:600px){
     body{
-    display: flex;
-    flex-flow: column wrap;
+    width: 60vw;
     }
+   
     main{
-    
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     }
 }
 
