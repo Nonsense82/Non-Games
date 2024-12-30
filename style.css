@@ -100,9 +100,11 @@ body{
     background-image:url(foto\ 00.jpg),url(foto\ 2.jpg), url(foto\ 3.jpg),url(foto\ 4.jpg), url(foto\ 6.jpg),url(foto\ 7.jpg);
     background-position: right bottom, left bottom,right top,left top, center left,center right;
     background-repeat: no-repeat, no-repeat,no-repeat, repeat-y,no-repeat,repeat-y;
-      }
+      } 
 
 main{
+    display: flex;
+    flex-flow: column wrap;
     background-color: white;
     width:800px ;
     margin: auto;
