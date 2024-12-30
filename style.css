@@ -136,14 +136,39 @@ footer > h4{
        cursor: pointer; 
      }
 
-@media screen and (max-width:400px){
-p{
-    font-size: 1em;
-}   
-.fonte{
-display: flex;
-flex-flow: column wrap;
-
-}
-   
-}
+     @media screen and (max-width: 400px) {
+        /* Ajuste nas fontes */
+        header h1 {
+            font-size: 40px;
+        }
+    
+        main p {
+            font-size: 1em;
+        }
+    
+        /* Ajustes na navegação */
+        nav a {
+            font-size: 16px;
+        }
+    
+        /* Ajustes no conteúdo */
+        .foto {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+    
+        footer h4 {
+            font-size: 0.8rem;
+        }
+    
+        .wall {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
