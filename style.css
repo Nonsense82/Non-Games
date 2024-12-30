@@ -137,19 +137,13 @@ footer > h4{
      }
 
 @media screen and (max-width:400px){
-    body{
-  
-     width: auto;
-   
-    }
-    p{
-        font-size: 1em;
-    }
-   
-    main{
-        width: auto;
-        height: auto;
-       
-    }
-}
+p{
+    font-size: 1em;
+}   
+.fonte{
+display: flex;
+flex-flow: column wrap;
 
+}
+   
+}
