@@ -94,6 +94,8 @@ iframe{
  }
 
 body{
+    display: flex;
+    flex-flow: column wrap;
     background-color: rgb(26, 26, 26);
     background-image:url(foto\ 00.jpg),url(foto\ 2.jpg), url(foto\ 3.jpg),url(foto\ 4.jpg), url(foto\ 6.jpg),url(foto\ 7.jpg);
     background-position: right bottom, left bottom,right top,left top, center left,center right;
