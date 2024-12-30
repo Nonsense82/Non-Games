@@ -136,18 +136,19 @@ footer > h4{
        cursor: pointer; 
      }
 
-     @media screen and (max-width: 400px) {
-        body{
-            overflow-x: hidden;
+@media screen and (max-width: 400px) {
+    body{
+     width: 100%;
            
-        }
-        /* Ajuste nas fontes */
-        header h1 {
-            font-size: 40px;
-        }
+    }
+    /* Ajuste nas fontes */
+    header h1 {
+     font-size: 2em;
+    }
     
-        .item{
-       flex-flow:row wrap;
+    .item{
+      width: 100%;
+      max-width: 100%;
       
           
         }
