@@ -142,6 +142,9 @@ footer > h4{
             font-size: 40px;
         }
     
+        .item{
+        flex: 1 1 100%;       
+        }
         main p {
             font-size: 1em;
         }
@@ -157,10 +160,7 @@ footer > h4{
             align-items: center;
         }
     
-        iframe {
-            width: 100%;
-            height: auto;
-        }
+        
     
         footer h4 {
             font-size: 0.8rem;
