@@ -136,14 +136,17 @@ footer > h4{
        cursor: pointer; 
      }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
     body{
-    width: 60vw;
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
     }
    
     main{
-    display: flex;
-    flex-flow: row wrap;
+        display: flex;
+        flex-basis: auto;
+        flex-shrink: 1;
     }
 }
 
