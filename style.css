@@ -5,7 +5,7 @@
 }
 @font-face{
     font-family:"game";
-    src: url("fonte/Gameplay.ttf");
+    src: url("Gameplay.ttf");
 }
 header{
     padding:40px;
@@ -136,9 +136,15 @@ footer > h4{
        cursor: pointer; 
      }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     body{
-    width: 80vw;
+    display: flex;
+    flex-flow: column wrap;
+    }
+    main{
+    
+    display: flex;
+    flex-flow: column wrap;
     }
 }
 
