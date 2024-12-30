@@ -136,5 +136,9 @@ footer > h4{
        cursor: pointer; 
      }
 
-
+@media screen and (max-width:400px){
+    body{
+    width: 80vw;
+    }
+}
 
