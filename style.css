@@ -139,7 +139,7 @@ footer > h4{
 @media screen and (max-width: 400px) {
     body{
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
            
     }
     /* Ajuste nas fontes */
