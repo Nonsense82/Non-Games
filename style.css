@@ -139,7 +139,7 @@ footer > h4{
 @media screen and (max-width: 400px) {
     body{
    min-height: 100vh;
-   max-width:100vw;
+   max-width:80vw;
            
     }
     /* Ajuste nas fontes */
