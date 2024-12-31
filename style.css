@@ -138,9 +138,9 @@ footer > h4{
 
 @media screen and (max-width: 400px) {
     body{
-   flex-basis: 200px;
-   flex-grow: 1;
-   flex-shrink: 0;
+   flex-basis: content;
+   flex-grow: 0;
+   flex-shrink: 1;
     
            
     }
